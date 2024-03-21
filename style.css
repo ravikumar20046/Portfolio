@@ -1,0 +1,286 @@
+
+.box{
+    background-color:lightgray;
+}
+.container{
+    display:flex;
+    gap:1rem;
+    flex-direction:row;
+    justify-content:left;
+    align-items:normal;
+    flex-wrap:wrap ;
+    width:100%;
+    background-color:lightgray;
+}
+.container >*{
+          flex-basis: 100px;
+}
+.slide_bar{
+    position:fixed;
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+    transition:0.6s;
+    z-index: 9999;
+}
+.size a{
+    text-decoration:none;
+    font-size:1.2rem;
+    color:blue;
+    cursor:pointer;
+}
+.size a:hover{
+    background:white;
+}
+.home_page{
+    display:flex;
+    background-color:#e4f9f5;
+    height:720px;
+    width:100%;
+}
+.home{
+    position:absolute;
+    left:600px;
+    top:170px;
+    color: #66bfbf;
+}
+.mountain{
+    position:absolute;
+    left:30%;
+    top:51%;
+}
+.top_cloud{
+    position:absolute;
+    left:900px;
+    top:70px;
+}
+.down_cloud{
+    position:absolute;
+    left:250px;
+    top:290px;
+}
+.name{
+    font-family: 'Cedarville Cursive', cursive;
+font-family: 'Crimson Text', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Satisfy', cursive;
+    font-size:3.65rem;
+}
+.name2{
+    font-size:3rem;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Crimson Text', serif;
+}
+.pro{
+    text-decoration: underline;
+}
+.profile{
+    background-color:white;
+    display:flex;
+    width:100%;
+    height:600px;
+}
+.about{
+    color:black;
+    position:absolute;
+    left:700px;
+    top:720px;
+}
+.img{
+    height:220px;
+    width:220px;
+    position:absolute;
+    left:645px;
+    top:780px;
+}
+.greet{
+    color:#66bfbf;
+    font-family: 'Cedarville Cursive', cursive;
+font-family: 'Crimson Text', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Tajawal', sans-serif;
+font-size:3rem;
+    position:absolute;
+    left:710px;
+    top:990px;
+}
+.para{
+    width:50%;
+    font-family: 'Cedarville Cursive', cursive;
+font-family: 'Crimson Text', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Tajawal', sans-serif;
+font-size:2rem;
+position:absolute;
+left:420px;
+top:1059px;
+}
+.projects{
+    display:flex;
+    justify-content:center;
+    background-color:antiquewhite;
+    width:100%;
+    height:470px;
+}
+.project{
+    display:block;
+    font-size:2rem;
+}
+.dot{
+    font-size:3rem;
+}
+.sub{
+    position:absolute;
+    top:1390px;
+    float:left;
+    font-size:1rem;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Tajawal', sans-serif;
+    height:100%;
+    width:42%;
+}
+.floor_cleaning_robot{
+    float:left;
+    height:200px;
+    width:200px;
+}
+.robot{
+    font-size:1.5rem;
+    color:#66bfbf;
+}
+.skill{
+    display:flex;
+    background-color:aliceblue;
+    height:480px;
+    width:100%;
+}
+.heading{
+    display:flex;
+    position:absolute;
+    top:1800px;
+    left:670px;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    font-size:2.7rem;
+}
+.terminal{
+    position:absolute;
+    top:1900px;
+    left:100px;
+    background-color:#FFEE63;
+}
+.pa{
+     color:#11999e;
+     font-size:1.8rem;
+     position:absolute;
+    top:1890px;
+    left:140px;
+}
+.data{
+    display:flex;
+    flex-wrap:wrap;
+    gap:1.2rem;
+    margin-bottom:5px;
+    position:absolute;
+    top:1950px;
+    left:140px;
+}
+.chip{
+    display:flex;
+    background-color:black;
+    font-size:22px;
+    color:white;
+    border-radius:8px;
+    padding:15px 15px;
+
+}
+.terminal1{
+    position:absolute;
+    top:2030px;
+    left:100px;
+    background-color:#FFEE63;
+}
+.pa1{
+     color:#11999e;
+     font-size:1.8rem;
+     position:absolute;
+    top:2020px;
+    left:140px;
+}
+.data1{
+    display:flex;
+    flex-wrap:wrap;
+    gap:1.2rem;
+    margin-bottom:5px;
+    position:absolute;
+    top:2080px;
+    left:140px;
+}
+.contact{
+    display:flex;
+    justify-content:center;
+    background-color:white;
+    width:100%;
+    height:400px;
+}
+.con{
+    color:#66bfbf;
+    font-size:2.5rem;
+    padding-top:20px;
+    /* position:absolute;
+    top:2280px; */
+    font-family: 'Cedarville Cursive', cursive;
+font-family: 'Crimson Text', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Tajawal', sans-serif;
+}
+.btn1{
+    background-color:#66bfbf;
+    text-decoration:none;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    height:50px;
+    border-radius:8px;
+    font-size:20px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px 10px 20px;
+    position:absolute;
+    top:2350px;
+}
+.add{
+    position:absolute;
+    top:2420px;
+}
+.footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#11999e;
+    height:200px;
+    width:100%;
+    font-size:1.5rem;
+}
+.footer a{
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    color:white;
+    cursor:pointer;
+}
+
+.footer a:hover{
+    background:blue;
+}
+.copyright {
+    position:absolute;
+    top:2800px;
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
